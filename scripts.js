@@ -69,6 +69,11 @@ playStop.addEventListener('click', () => {
     musicFim.pause()
     clearInterval(intervaloID)
     intervaloID = setInterval(diminuindoSegundos, 1000);
+    if(tempoSemFormato <= 0){
+        fimDoTempo()
+        musicFim.pause()
+        clearInterval(intervaloID)
+    }
 })
 
 stopPlay.addEventListener('click', () => {

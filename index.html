@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Challenger</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <section class="cabecalho">
+            <h2> Sobre nós </h2>
+            <h2> Duvidas </h2>
+            <h2> Portfolio </h2>
+            <img src="./imgs/pomodoroheader.png" alt="Imagem do tomate">
+        </section>
+    </header>
+    <main class="conteudo">
+        <div class="conteudo__caixa">
+            <div>
+                <button type="button" id="pomodoroTime" name="pomodoro" class="conteudo__caixa--botao"> Pomodoro </button>
+            </div>
+            <div>
+                <button type="button" id="pauseShortBreak" name="ShortBreak" class="conteudo__caixa--botao"> Short Break </button>
+            </div>
+            <div>
+                <button type="button" id="pauseLongBreak" name="LongBreak" class="conteudo__caixa--botao"> Long Break </button>
+            </div>
+        </div>
+        <div class="conteudo__tempo">
+            <h1>Tempo: </h1> <div id="timer" class="tempo"></div>
+        </div>
+        
+        <div class="conteudo__caixa">
+            <button type="button" id="playStop" name="playStop" class="conteudo__caixa--botao"> Play </button>
+            <button type="button" id="stopPlay" name="stop" class="conteudo__caixa--botao"> Stop </button>
+        </div>
+    </main>
+    <footer>
+        <section class="rodape">
+            <a target="_blank" href="https://wa.me/5541995925911" ><img src="./imgs/whatsapp.png" alt="Meu Whatsapp">Whatsapp</a>
+            <a target="_blank" href="https://github.com/devkrhis" ><img src="./imgs/github.png" alt="Meu Github"> Github </a>
+            <a target="_blank" href="https://www.linkedin.com/in/krhistopher-kauling-novak-b4364712a/" ><img src="./imgs/linkedin.png" alt="Meu linkedin"> Linkedin </a>
+        </section>
+    </footer>
+</body>
+</html>
